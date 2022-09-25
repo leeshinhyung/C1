@@ -4,7 +4,7 @@ int main(void)
 {
 	double km;
 	double miles;
-	printf("Please enter kilometers: \n");
+	printf("Please enter kilometers:");
 	scanf("%lf", &km);
 
 	miles = km * 0.621371;
