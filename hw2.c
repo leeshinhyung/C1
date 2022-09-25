@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main(void)
 {
-	double num;
-	double result;
+	double km;
+	double miles;
 	printf("Please enter kilometers: \n");
-	scanf("%lf", &num);
+	scanf("%lf", &km);
 
-	result = num * 0.621371;
-	printf("%.1f km is equal to %.1f miles.\n", num, result);
+	miles = km * 0.621371;
+	printf("%.1f km is equal to %.1f miles.\n", km, miles);
 	return 0;
 }
